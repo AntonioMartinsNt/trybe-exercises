@@ -1,0 +1,52 @@
+.super-mario {
+    width: 200px;
+    top: 0;
+    left: 0;
+    position: relative;
+    vertical-align: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+.goomba {
+    width: 150px;
+    top: 380px;
+    left: 50px;
+    position: absolute;
+    vertical-align: 0;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+.bowser {
+    width: 300px;
+    top: 200px;
+    left: 500px;
+    position: absolute;
+    vertical-align: 0;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+.baloon {
+    width: 150px;
+    top: 200px;
+    left: 350px;
+    position: absolute;
+    vertical-align: 0;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    z-index: 1;
+}
+.word {
+    width: 150px;
+    top: 220px;
+    left: 380px;
+    position: absolute;
+    vertical-align: 0;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    z-index: 2;
+}
