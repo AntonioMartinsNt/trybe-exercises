@@ -5,7 +5,7 @@
 // Exemplo: bishop (bispo) -> diagonals (diagonais)
 
 
-let peca_xadrez = "peão".toLowerCase()
+let peca_xadrez = "RAINHA".toLowerCase()
 
 switch (peca_xadrez) {
     case "peão":
@@ -28,6 +28,6 @@ switch (peca_xadrez) {
         break;
 }
 
-if (peca_xadrez != "peão" || peca_xadrez != "torre" || peca_xadrez != "cavalo" || peca_xadrez != "bispo" || peca_xadrez != "rainha" || peca_xadrez != "rei") {
+if (peca_xadrez != "peão" && peca_xadrez != "torre" && peca_xadrez != "cavalo" && peca_xadrez != "bispo" && peca_xadrez != "rainha" && peca_xadrez != "rei") {
     console.log ("ERRO");
 }
