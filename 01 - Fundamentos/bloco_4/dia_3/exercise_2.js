@@ -13,11 +13,8 @@ const asterisco = "*";
 let linha = [];
 
 if (n > 1) {
-    for (let index = n; index > 0; index -= 1) {
+    for (let index = 1; index <= n; index += 1) {
         linha = linha + asterisco;
-    }    
-    for (let numAsteriscos = n; numAsteriscos > 0; numAsteriscos -= 1) {
-        linha.length[n-1];
         console.log (linha);
     }
 }

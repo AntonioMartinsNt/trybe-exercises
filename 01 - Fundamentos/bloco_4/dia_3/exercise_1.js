@@ -8,7 +8,7 @@
 // *****
 
 
-let n = 3;
+let n = 5;
 const asterisco = "*";
 let linhas = [];
 
